@@ -34,10 +34,6 @@ module.exports = {
           presets: [require.resolve("@babel/preset-react")],
         },
       },
-      {
-        test: /\.md$/,
-        loader: "raw-loader",
-      },
     ],
   },
   externals: {
